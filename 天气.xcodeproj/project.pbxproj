@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651E9B1EE065E1C70281AF12 /* libPods-天气.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFE0FCE878E3A210E236BF9 /* libPods-天气.a */; };
+		E9ACD9D71E0395E7005BAA63 /* ElseCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ACD9D61E0395E7005BAA63 /* ElseCityViewController.m */; };
+		E9EACB241DFF93600061FAD4 /* LifeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EACB221DFF93600061FAD4 /* LifeTableViewCell.m */; };
+		E9EACB251DFF93600061FAD4 /* LifeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9EACB231DFF93600061FAD4 /* LifeTableViewCell.xib */; };
+		E9ED5F561E066B1A009EE626 /* UUBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED5F4B1E066B1A009EE626 /* UUBar.m */; };
+		E9ED5F571E066B1A009EE626 /* UUBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED5F4D1E066B1A009EE626 /* UUBarChart.m */; };
+		E9ED5F581E066B1A009EE626 /* UUChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED5F4F1E066B1A009EE626 /* UUChart.m */; };
+		E9ED5F591E066B1A009EE626 /* UUChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED5F511E066B1A009EE626 /* UUChartLabel.m */; };
+		E9ED5F5A1E066B1A009EE626 /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED5F531E066B1A009EE626 /* UUColor.m */; };
+		E9ED5F5B1E066B1A009EE626 /* UULineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED5F551E066B1A009EE626 /* UULineChart.m */; };
+		E9EFAA261E00E870004861EA /* MoreCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAA251E00E870004861EA /* MoreCityViewController.m */; };
+		E9EFAA281E00EBAB004861EA /* CityList.json in Resources */ = {isa = PBXBuildFile; fileRef = E9EFAA271E00EBAB004861EA /* CityList.json */; };
+		E9EFAA301E00F66F004861EA /* CommonCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAA2F1E00F66F004861EA /* CommonCityViewController.m */; };
+		E9EFAA341E0111C3004861EA /* CommonCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAA321E0111C3004861EA /* CommonCityTableViewCell.m */; };
+		E9EFAA351E0111C3004861EA /* CommonCityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9EFAA331E0111C3004861EA /* CommonCityTableViewCell.xib */; };
+		E9EFAA441E0114DE004861EA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAA3A1E0114DD004861EA /* FMDatabase.m */; };
+		E9EFAA451E0114DE004861EA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAA3C1E0114DE004861EA /* FMDatabaseAdditions.m */; };
+		E9EFAA461E0114DE004861EA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAA3E1E0114DE004861EA /* FMDatabasePool.m */; };
+		E9EFAA471E0114DE004861EA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAA401E0114DE004861EA /* FMDatabaseQueue.m */; };
+		E9EFAA481E0114DE004861EA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAA431E0114DE004861EA /* FMResultSet.m */; };
+		E9EFAA4B1E011505004861EA /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAA4A1E011505004861EA /* DataBaseManager.m */; };
+		E9EFAA4D1E011B9F004861EA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EFAA4C1E011B9F004861EA /* libsqlite3.tbd */; };
+		E9F0D1F91DFE28F9007040EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0D1F81DFE28F9007040EE /* main.m */; };
+		E9F0D1FC1DFE28F9007040EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0D1FB1DFE28F9007040EE /* AppDelegate.m */; };
+		E9F0D1FF1DFE28F9007040EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0D1FE1DFE28F9007040EE /* ViewController.m */; };
+		E9F0D2021DFE28F9007040EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F0D2001DFE28F9007040EE /* Main.storyboard */; };
+		E9F0D2041DFE28F9007040EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F0D2031DFE28F9007040EE /* Assets.xcassets */; };
+		E9F0D2071DFE28F9007040EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F0D2051DFE28F9007040EE /* LaunchScreen.storyboard */; };
+		E9F0D2121DFE28F9007040EE /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0D2111DFE28F9007040EE /* __Tests.m */; };
+		E9F0D21D1DFE28F9007040EE /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0D21C1DFE28F9007040EE /* __UITests.m */; };
+		E9F0D2331DFE2E3D007040EE /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0D2301DFE2E3D007040EE /* WeatherViewController.m */; };
+		E9F0D2851DFEB3EF007040EE /* ThreeDayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F0D2831DFEB3EF007040EE /* ThreeDayTableViewCell.m */; };
+		E9F0D2861DFEB3EF007040EE /* ThreeDayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F0D2841DFEB3EF007040EE /* ThreeDayTableViewCell.xib */; };
+		E9F195F51E03877900421EC7 /* FutureWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F195F41E03877900421EC7 /* FutureWeatherViewController.m */; };
+		E9F195F81E0387B100421EC7 /* LifeIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F195F71E0387B100421EC7 /* LifeIndexViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9F0D20E1DFE28F9007040EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F0D1EC1DFE28F8007040EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F0D1F31DFE28F8007040EE;
+			remoteInfo = "天气";
+		};
+		E9F0D2191DFE28F9007040EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9F0D1EC1DFE28F8007040EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F0D1F31DFE28F8007040EE;
+			remoteInfo = "天气";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69BC2AD71868151B1C8B73AF /* Pods-天气.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-天气.release.xcconfig"; path = "Pods/Target Support Files/Pods-天气/Pods-天气.release.xcconfig"; sourceTree = "<group>"; };
+		9FFE0FCE878E3A210E236BF9 /* libPods-天气.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-天气.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF39E974EF6018B9B132128F /* Pods-天气.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-天气.debug.xcconfig"; path = "Pods/Target Support Files/Pods-天气/Pods-天气.debug.xcconfig"; sourceTree = "<group>"; };
+		E9ACD9D51E0395E7005BAA63 /* ElseCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElseCityViewController.h; sourceTree = "<group>"; };
+		E9ACD9D61E0395E7005BAA63 /* ElseCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElseCityViewController.m; sourceTree = "<group>"; };
+		E9EACB211DFF93600061FAD4 /* LifeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeTableViewCell.h; sourceTree = "<group>"; };
+		E9EACB221DFF93600061FAD4 /* LifeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeTableViewCell.m; sourceTree = "<group>"; };
+		E9EACB231DFF93600061FAD4 /* LifeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LifeTableViewCell.xib; sourceTree = "<group>"; };
+		E9ED5F4A1E066B1A009EE626 /* UUBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBar.h; sourceTree = "<group>"; };
+		E9ED5F4B1E066B1A009EE626 /* UUBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBar.m; sourceTree = "<group>"; };
+		E9ED5F4C1E066B1A009EE626 /* UUBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBarChart.h; sourceTree = "<group>"; };
+		E9ED5F4D1E066B1A009EE626 /* UUBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBarChart.m; sourceTree = "<group>"; };
+		E9ED5F4E1E066B1A009EE626 /* UUChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChart.h; sourceTree = "<group>"; };
+		E9ED5F4F1E066B1A009EE626 /* UUChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChart.m; sourceTree = "<group>"; };
+		E9ED5F501E066B1A009EE626 /* UUChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChartLabel.h; sourceTree = "<group>"; };
+		E9ED5F511E066B1A009EE626 /* UUChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChartLabel.m; sourceTree = "<group>"; };
+		E9ED5F521E066B1A009EE626 /* UUColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUColor.h; sourceTree = "<group>"; };
+		E9ED5F531E066B1A009EE626 /* UUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUColor.m; sourceTree = "<group>"; };
+		E9ED5F541E066B1A009EE626 /* UULineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UULineChart.h; sourceTree = "<group>"; };
+		E9ED5F551E066B1A009EE626 /* UULineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UULineChart.m; sourceTree = "<group>"; };
+		E9EFAA241E00E870004861EA /* MoreCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreCityViewController.h; sourceTree = "<group>"; };
+		E9EFAA251E00E870004861EA /* MoreCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreCityViewController.m; sourceTree = "<group>"; };
+		E9EFAA271E00EBAB004861EA /* CityList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CityList.json; sourceTree = "<group>"; };
+		E9EFAA2E1E00F66F004861EA /* CommonCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCityViewController.h; sourceTree = "<group>"; };
+		E9EFAA2F1E00F66F004861EA /* CommonCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCityViewController.m; sourceTree = "<group>"; };
+		E9EFAA311E0111C3004861EA /* CommonCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCityTableViewCell.h; sourceTree = "<group>"; };
+		E9EFAA321E0111C3004861EA /* CommonCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCityTableViewCell.m; sourceTree = "<group>"; };
+		E9EFAA331E0111C3004861EA /* CommonCityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonCityTableViewCell.xib; sourceTree = "<group>"; };
+		E9EFAA391E0114DD004861EA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		E9EFAA3A1E0114DD004861EA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		E9EFAA3B1E0114DE004861EA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		E9EFAA3C1E0114DE004861EA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		E9EFAA3D1E0114DE004861EA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		E9EFAA3E1E0114DE004861EA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		E9EFAA3F1E0114DE004861EA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		E9EFAA401E0114DE004861EA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		E9EFAA411E0114DE004861EA /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		E9EFAA421E0114DE004861EA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		E9EFAA431E0114DE004861EA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		E9EFAA491E011505004861EA /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataBaseManager.h; path = ../View/DataBaseManager.h; sourceTree = "<group>"; };
+		E9EFAA4A1E011505004861EA /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataBaseManager.m; path = ../View/DataBaseManager.m; sourceTree = "<group>"; };
+		E9EFAA4C1E011B9F004861EA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E9F0D1F41DFE28F9007040EE /* 天气.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "天气.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F0D1F81DFE28F9007040EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9F0D1FA1DFE28F9007040EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9F0D1FB1DFE28F9007040EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9F0D1FD1DFE28F9007040EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9F0D1FE1DFE28F9007040EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9F0D2011DFE28F9007040EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9F0D2031DFE28F9007040EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F0D2061DFE28F9007040EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9F0D2081DFE28F9007040EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F0D20D1DFE28F9007040EE /* 天气Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "天气Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F0D2111DFE28F9007040EE /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		E9F0D2131DFE28F9007040EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F0D2181DFE28F9007040EE /* 天气UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "天气UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F0D21C1DFE28F9007040EE /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		E9F0D21E1DFE28F9007040EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F0D22F1DFE2E3D007040EE /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		E9F0D2301DFE2E3D007040EE /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		E9F0D2821DFEB3EF007040EE /* ThreeDayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDayTableViewCell.h; sourceTree = "<group>"; };
+		E9F0D2831DFEB3EF007040EE /* ThreeDayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeDayTableViewCell.m; sourceTree = "<group>"; };
+		E9F0D2841DFEB3EF007040EE /* ThreeDayTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeDayTableViewCell.xib; sourceTree = "<group>"; };
+		E9F195F31E03877900421EC7 /* FutureWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FutureWeatherViewController.h; sourceTree = "<group>"; };
+		E9F195F41E03877900421EC7 /* FutureWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FutureWeatherViewController.m; sourceTree = "<group>"; };
+		E9F195F61E0387B100421EC7 /* LifeIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeIndexViewController.h; sourceTree = "<group>"; };
+		E9F195F71E0387B100421EC7 /* LifeIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeIndexViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F0D1F11DFE28F8007040EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EFAA4D1E011B9F004861EA /* libsqlite3.tbd in Frameworks */,
+				651E9B1EE065E1C70281AF12 /* libPods-天气.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F0D20A1DFE28F9007040EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F0D2151DFE28F9007040EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20A3FD3ABFC41CD6FE56E572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFAA4C1E011B9F004861EA /* libsqlite3.tbd */,
+				9FFE0FCE878E3A210E236BF9 /* libPods-天气.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		220EA0FEEFB85A22ECC3CAA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF39E974EF6018B9B132128F /* Pods-天气.debug.xcconfig */,
+				69BC2AD71868151B1C8B73AF /* Pods-天气.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9ED5F491E066B1A009EE626 /* UUChart */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED5F4A1E066B1A009EE626 /* UUBar.h */,
+				E9ED5F4B1E066B1A009EE626 /* UUBar.m */,
+				E9ED5F4C1E066B1A009EE626 /* UUBarChart.h */,
+				E9ED5F4D1E066B1A009EE626 /* UUBarChart.m */,
+				E9ED5F4E1E066B1A009EE626 /* UUChart.h */,
+				E9ED5F4F1E066B1A009EE626 /* UUChart.m */,
+				E9ED5F501E066B1A009EE626 /* UUChartLabel.h */,
+				E9ED5F511E066B1A009EE626 /* UUChartLabel.m */,
+				E9ED5F521E066B1A009EE626 /* UUColor.h */,
+				E9ED5F531E066B1A009EE626 /* UUColor.m */,
+				E9ED5F541E066B1A009EE626 /* UULineChart.h */,
+				E9ED5F551E066B1A009EE626 /* UULineChart.m */,
+			);
+			path = UUChart;
+			sourceTree = "<group>";
+		};
+		E9EFAA381E0114DD004861EA /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFAA391E0114DD004861EA /* FMDatabase.h */,
+				E9EFAA3A1E0114DD004861EA /* FMDatabase.m */,
+				E9EFAA3B1E0114DE004861EA /* FMDatabaseAdditions.h */,
+				E9EFAA3C1E0114DE004861EA /* FMDatabaseAdditions.m */,
+				E9EFAA3D1E0114DE004861EA /* FMDatabasePool.h */,
+				E9EFAA3E1E0114DE004861EA /* FMDatabasePool.m */,
+				E9EFAA3F1E0114DE004861EA /* FMDatabaseQueue.h */,
+				E9EFAA401E0114DE004861EA /* FMDatabaseQueue.m */,
+				E9EFAA411E0114DE004861EA /* FMDB.h */,
+				E9EFAA421E0114DE004861EA /* FMResultSet.h */,
+				E9EFAA431E0114DE004861EA /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		E9F0D1EB1DFE28F8007040EE = {
+			isa = PBXGroup;
+			children = (
+				E9F0D1F61DFE28F9007040EE /* 天气 */,
+				E9F0D2101DFE28F9007040EE /* 天气Tests */,
+				E9F0D21B1DFE28F9007040EE /* 天气UITests */,
+				E9F0D1F51DFE28F9007040EE /* Products */,
+				220EA0FEEFB85A22ECC3CAA1 /* Pods */,
+				20A3FD3ABFC41CD6FE56E572 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F0D1F51DFE28F9007040EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0D1F41DFE28F9007040EE /* 天气.app */,
+				E9F0D20D1DFE28F9007040EE /* 天气Tests.xctest */,
+				E9F0D2181DFE28F9007040EE /* 天气UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F0D1F61DFE28F9007040EE /* 天气 */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0D1FA1DFE28F9007040EE /* AppDelegate.h */,
+				E9F0D1FB1DFE28F9007040EE /* AppDelegate.m */,
+				E9F0D1FD1DFE28F9007040EE /* ViewController.h */,
+				E9F0D1FE1DFE28F9007040EE /* ViewController.m */,
+				E9ED5F491E066B1A009EE626 /* UUChart */,
+				E9EFAA381E0114DD004861EA /* fmdb */,
+				E9F0D22D1DFE2E3D007040EE /* Weather */,
+				E9F0D2001DFE28F9007040EE /* Main.storyboard */,
+				E9EFAA271E00EBAB004861EA /* CityList.json */,
+				E9F0D2031DFE28F9007040EE /* Assets.xcassets */,
+				E9F0D2051DFE28F9007040EE /* LaunchScreen.storyboard */,
+				E9F0D2081DFE28F9007040EE /* Info.plist */,
+				E9F0D1F71DFE28F9007040EE /* Supporting Files */,
+			);
+			path = "天气";
+			sourceTree = "<group>";
+		};
+		E9F0D1F71DFE28F9007040EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0D1F81DFE28F9007040EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9F0D2101DFE28F9007040EE /* 天气Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0D2111DFE28F9007040EE /* __Tests.m */,
+				E9F0D2131DFE28F9007040EE /* Info.plist */,
+			);
+			path = "天气Tests";
+			sourceTree = "<group>";
+		};
+		E9F0D21B1DFE28F9007040EE /* 天气UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0D21C1DFE28F9007040EE /* __UITests.m */,
+				E9F0D21E1DFE28F9007040EE /* Info.plist */,
+			);
+			path = "天气UITests";
+			sourceTree = "<group>";
+		};
+		E9F0D22D1DFE2E3D007040EE /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0D22E1DFE2E3D007040EE /* Controller */,
+				E9F0D2311DFE2E3D007040EE /* Model */,
+				E9F0D2321DFE2E3D007040EE /* View */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		E9F0D22E1DFE2E3D007040EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0D22F1DFE2E3D007040EE /* WeatherViewController.h */,
+				E9F0D2301DFE2E3D007040EE /* WeatherViewController.m */,
+				E9EFAA2E1E00F66F004861EA /* CommonCityViewController.h */,
+				E9EFAA2F1E00F66F004861EA /* CommonCityViewController.m */,
+				E9EFAA241E00E870004861EA /* MoreCityViewController.h */,
+				E9EFAA251E00E870004861EA /* MoreCityViewController.m */,
+				E9ACD9D51E0395E7005BAA63 /* ElseCityViewController.h */,
+				E9ACD9D61E0395E7005BAA63 /* ElseCityViewController.m */,
+				E9F195F31E03877900421EC7 /* FutureWeatherViewController.h */,
+				E9F195F41E03877900421EC7 /* FutureWeatherViewController.m */,
+				E9F195F61E0387B100421EC7 /* LifeIndexViewController.h */,
+				E9F195F71E0387B100421EC7 /* LifeIndexViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9F0D2311DFE2E3D007040EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9EFAA491E011505004861EA /* DataBaseManager.h */,
+				E9EFAA4A1E011505004861EA /* DataBaseManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9F0D2321DFE2E3D007040EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9F0D2821DFEB3EF007040EE /* ThreeDayTableViewCell.h */,
+				E9F0D2831DFEB3EF007040EE /* ThreeDayTableViewCell.m */,
+				E9F0D2841DFEB3EF007040EE /* ThreeDayTableViewCell.xib */,
+				E9EACB211DFF93600061FAD4 /* LifeTableViewCell.h */,
+				E9EACB221DFF93600061FAD4 /* LifeTableViewCell.m */,
+				E9EACB231DFF93600061FAD4 /* LifeTableViewCell.xib */,
+				E9EFAA311E0111C3004861EA /* CommonCityTableViewCell.h */,
+				E9EFAA321E0111C3004861EA /* CommonCityTableViewCell.m */,
+				E9EFAA331E0111C3004861EA /* CommonCityTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F0D1F31DFE28F8007040EE /* 天气 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F0D2211DFE28F9007040EE /* Build configuration list for PBXNativeTarget "天气" */;
+			buildPhases = (
+				D2FFE57CC2A6A9C64F1F41C5 /* [CP] Check Pods Manifest.lock */,
+				E9F0D1F01DFE28F8007040EE /* Sources */,
+				E9F0D1F11DFE28F8007040EE /* Frameworks */,
+				E9F0D1F21DFE28F8007040EE /* Resources */,
+				7933F5BBA531E3D7A10AD3DE /* [CP] Embed Pods Frameworks */,
+				71469E58511CCA31B75E2C2C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "天气";
+			productName = "天气";
+			productReference = E9F0D1F41DFE28F9007040EE /* 天气.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9F0D20C1DFE28F9007040EE /* 天气Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F0D2241DFE28F9007040EE /* Build configuration list for PBXNativeTarget "天气Tests" */;
+			buildPhases = (
+				E9F0D2091DFE28F9007040EE /* Sources */,
+				E9F0D20A1DFE28F9007040EE /* Frameworks */,
+				E9F0D20B1DFE28F9007040EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F0D20F1DFE28F9007040EE /* PBXTargetDependency */,
+			);
+			name = "天气Tests";
+			productName = "天气Tests";
+			productReference = E9F0D20D1DFE28F9007040EE /* 天气Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9F0D2171DFE28F9007040EE /* 天气UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F0D2271DFE28F9007040EE /* Build configuration list for PBXNativeTarget "天气UITests" */;
+			buildPhases = (
+				E9F0D2141DFE28F9007040EE /* Sources */,
+				E9F0D2151DFE28F9007040EE /* Frameworks */,
+				E9F0D2161DFE28F9007040EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F0D21A1DFE28F9007040EE /* PBXTargetDependency */,
+			);
+			name = "天气UITests";
+			productName = "天气UITests";
+			productReference = E9F0D2181DFE28F9007040EE /* 天气UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F0D1EC1DFE28F8007040EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "高炳楠";
+				TargetAttributes = {
+					E9F0D1F31DFE28F8007040EE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3MX534FR8V;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					E9F0D20C1DFE28F9007040EE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9F0D1F31DFE28F8007040EE;
+					};
+					E9F0D2171DFE28F9007040EE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9F0D1F31DFE28F8007040EE;
+					};
+				};
+			};
+			buildConfigurationList = E9F0D1EF1DFE28F8007040EE /* Build configuration list for PBXProject "天气" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F0D1EB1DFE28F8007040EE;
+			productRefGroup = E9F0D1F51DFE28F9007040EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F0D1F31DFE28F8007040EE /* 天气 */,
+				E9F0D20C1DFE28F9007040EE /* 天气Tests */,
+				E9F0D2171DFE28F9007040EE /* 天气UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F0D1F21DFE28F8007040EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EFAA281E00EBAB004861EA /* CityList.json in Resources */,
+				E9EACB251DFF93600061FAD4 /* LifeTableViewCell.xib in Resources */,
+				E9F0D2071DFE28F9007040EE /* LaunchScreen.storyboard in Resources */,
+				E9F0D2861DFEB3EF007040EE /* ThreeDayTableViewCell.xib in Resources */,
+				E9F0D2041DFE28F9007040EE /* Assets.xcassets in Resources */,
+				E9EFAA351E0111C3004861EA /* CommonCityTableViewCell.xib in Resources */,
+				E9F0D2021DFE28F9007040EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F0D20B1DFE28F9007040EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F0D2161DFE28F9007040EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71469E58511CCA31B75E2C2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-天气/Pods-天气-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7933F5BBA531E3D7A10AD3DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-天气/Pods-天气-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FFE57CC2A6A9C64F1F41C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F0D1F01DFE28F8007040EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F0D1FF1DFE28F9007040EE /* ViewController.m in Sources */,
+				E9F195F81E0387B100421EC7 /* LifeIndexViewController.m in Sources */,
+				E9ED5F5A1E066B1A009EE626 /* UUColor.m in Sources */,
+				E9F0D2331DFE2E3D007040EE /* WeatherViewController.m in Sources */,
+				E9ED5F5B1E066B1A009EE626 /* UULineChart.m in Sources */,
+				E9ACD9D71E0395E7005BAA63 /* ElseCityViewController.m in Sources */,
+				E9EFAA441E0114DE004861EA /* FMDatabase.m in Sources */,
+				E9ED5F581E066B1A009EE626 /* UUChart.m in Sources */,
+				E9ED5F561E066B1A009EE626 /* UUBar.m in Sources */,
+				E9F195F51E03877900421EC7 /* FutureWeatherViewController.m in Sources */,
+				E9EFAA471E0114DE004861EA /* FMDatabaseQueue.m in Sources */,
+				E9ED5F571E066B1A009EE626 /* UUBarChart.m in Sources */,
+				E9EFAA481E0114DE004861EA /* FMResultSet.m in Sources */,
+				E9EACB241DFF93600061FAD4 /* LifeTableViewCell.m in Sources */,
+				E9F0D1FC1DFE28F9007040EE /* AppDelegate.m in Sources */,
+				E9ED5F591E066B1A009EE626 /* UUChartLabel.m in Sources */,
+				E9EFAA301E00F66F004861EA /* CommonCityViewController.m in Sources */,
+				E9EFAA451E0114DE004861EA /* FMDatabaseAdditions.m in Sources */,
+				E9F0D1F91DFE28F9007040EE /* main.m in Sources */,
+				E9EFAA341E0111C3004861EA /* CommonCityTableViewCell.m in Sources */,
+				E9EFAA461E0114DE004861EA /* FMDatabasePool.m in Sources */,
+				E9EFAA261E00E870004861EA /* MoreCityViewController.m in Sources */,
+				E9EFAA4B1E011505004861EA /* DataBaseManager.m in Sources */,
+				E9F0D2851DFEB3EF007040EE /* ThreeDayTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F0D2091DFE28F9007040EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F0D2121DFE28F9007040EE /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9F0D2141DFE28F9007040EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F0D21D1DFE28F9007040EE /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9F0D20F1DFE28F9007040EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F0D1F31DFE28F8007040EE /* 天气 */;
+			targetProxy = E9F0D20E1DFE28F9007040EE /* PBXContainerItemProxy */;
+		};
+		E9F0D21A1DFE28F9007040EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F0D1F31DFE28F8007040EE /* 天气 */;
+			targetProxy = E9F0D2191DFE28F9007040EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9F0D2001DFE28F9007040EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F0D2011DFE28F9007040EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9F0D2051DFE28F9007040EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F0D2061DFE28F9007040EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F0D21F1DFE28F9007040EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9F0D2201DFE28F9007040EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F0D2221DFE28F9007040EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF39E974EF6018B9B132128F /* Pods-天气.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 3MX534FR8V;
+				INFOPLIST_FILE = "天气/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc.www.weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6bc99173-6d6c-4329-9d2d-791388d17c78";
+				PROVISIONING_PROFILE_SPECIFIER = 1122;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9F0D2231DFE28F9007040EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BC2AD71868151B1C8B73AF /* Pods-天气.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 3MX534FR8V;
+				INFOPLIST_FILE = "天气/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyzc.www.weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6bc99173-6d6c-4329-9d2d-791388d17c78";
+				PROVISIONING_PROFILE_SPECIFIER = 1122;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E9F0D2251DFE28F9007040EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "天气Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wyzc.www.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/天气.app/天气";
+			};
+			name = Debug;
+		};
+		E9F0D2261DFE28F9007040EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "天气Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wyzc.www.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/天气.app/天气";
+			};
+			name = Release;
+		};
+		E9F0D2281DFE28F9007040EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "天气UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wyzc.www.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "天气";
+			};
+			name = Debug;
+		};
+		E9F0D2291DFE28F9007040EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "天气UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wyzc.www.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "天气";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F0D1EF1DFE28F8007040EE /* Build configuration list for PBXProject "天气" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F0D21F1DFE28F9007040EE /* Debug */,
+				E9F0D2201DFE28F9007040EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F0D2211DFE28F9007040EE /* Build configuration list for PBXNativeTarget "天气" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F0D2221DFE28F9007040EE /* Debug */,
+				E9F0D2231DFE28F9007040EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F0D2241DFE28F9007040EE /* Build configuration list for PBXNativeTarget "天气Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F0D2251DFE28F9007040EE /* Debug */,
+				E9F0D2261DFE28F9007040EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F0D2271DFE28F9007040EE /* Build configuration list for PBXNativeTarget "天气UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F0D2281DFE28F9007040EE /* Debug */,
+				E9F0D2291DFE28F9007040EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F0D1EC1DFE28F8007040EE /* Project object */;
+}
